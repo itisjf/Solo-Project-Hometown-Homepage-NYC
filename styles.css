@@ -1,0 +1,174 @@
+/**
+Palette: https://coolors.co/palette/8ecae6-219ebc-023047-ffb703-fb8500
+LIGHT BLUE: #8ECAE6;
+BLUE: #219EBC
+DARK BLUE: #023047
+YELLOW: #F4D35E
+LIGHT BROWN: #F3D5B5
+VERY LIGHT BROWN: #FFEDD8
+Google font: Josefin Sans
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    width: 720px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #023047;
+}
+
+img {
+    width: 100px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+#hero-section {
+    background-image: url(images/new-york.jpg);
+    background-size: cover;
+    color: #fff;
+    text-shadow: 0px 0px 4px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-section h1 {
+    background-color: #219EBC;
+    padding: 10px 20px 5px 20px;
+    border-radius: 10px;
+    font-size: 32px;
+    line-height: 37px;
+    margin: 145px 0px 16px 0px;
+}
+
+#hero-section h2 {
+    background-color: #8ECAE6;
+    padding: 10px 35px 5px 35px;
+    border-radius: 10px;
+    font-size: 19px;
+    line-height: 22px;
+    margin: 0px 0px 145px 0px;
+}
+
+#activities-section {
+    background-color: #F4D35E;
+    display: flex;
+    flex-direction: column;
+}
+
+#activities-section h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 40px 0px 55px 0px;
+}
+
+#activities-section-img-section div {
+    width: 200px;
+}
+
+#activities-section-img-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 0px 40px 0px;
+}
+
+#activities-section-img-section img {
+    border-radius: 50%;
+}
+
+#activities-section-img-section h3 {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 22px 0px 16px 0px;
+}
+
+#activities-section-img-section p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+#guide-section {
+    width: 400px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #8ECAE6;
+    padding: 25px 15px;
+    border-radius: 10px;
+    border-bottom: 6px solid #023047;
+}
+
+#guide-section img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.informations h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 50px 0px 15px 0px;
+}
+
+.informations p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 0px 10px 25px 10px;
+}
+
+.informations h4 {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#bonus-section {
+    background-color: #F3D5B5;
+    display: flex;
+    flex-direction: column;
+}
+
+#bonus-section h2 {
+    margin: 50px 0px;
+}
+
+#bonus-section img {
+    width: 220px;
+    border-radius: 10px;
+    border: 10px solid #FFEDD8;
+    margin: 0px 70px 0px 0px;
+}
+
+#bonus-section img:hover {
+    border: 10px solid #fff;
+}
+
+#flight-details-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+#flight-details-section div {
+    text-align: left;
+}
+
+#flight-details {
+    margin: 30px 0px 50px 0px;
+}
+
+#flight-details ul {
+    list-style-type: none;
+}
+
+#book-your-flight {
+    font-style: italic;
+    margin: 0px 0px 50px 0px;
+}
